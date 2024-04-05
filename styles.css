@@ -30,6 +30,14 @@ body, html {
 height: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+/* hero section */
 /* The hero image */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/ClaudiahW.jpeg");
@@ -56,3 +64,35 @@ position: relative;
     transform: translate(-50%, -50%);
     color: white;
 }
+/* about me section */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  /* contact me button */
+ .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+ }
