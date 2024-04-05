@@ -69,9 +69,7 @@ position: relative;
 html {
     box-sizing: border-box;
   }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+ 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
@@ -81,7 +79,7 @@ html {
     padding: 50px;
     text-align: center;
     background-color: #474e5d;
-    color: white;
+   
   }
   /* contact me button */
  .button {
@@ -96,3 +94,12 @@ html {
     width: 100%;
 
  }
+ .button:hover {
+    background-color: #555;
+ }
+
+ /* contact me  */
+
+  
+    
+ 
