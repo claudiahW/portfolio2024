@@ -13,7 +13,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/claudiah2.jpeg);
+    background-image: url(/assets/claudiah1.jpeg);
     background-size: cover;
     background-position: cover;
 }
@@ -25,4 +25,15 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
 }
