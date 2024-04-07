@@ -5,6 +5,10 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #080808;
     color: #fff;
@@ -404,4 +408,12 @@ form .btn2{
     .copyright{
         font-size: 14px;
     }
+}
+#span{
+
+}
+#msg{
+color: #61b752;
+margin-top: -20px;
+display: block;
 }
